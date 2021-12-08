@@ -12,12 +12,12 @@ import { GlobalContext } from './context/GlobalState';
 
 
 async function getArtworks() {
-  return (await axios.get('https://api.artic.edu/api/v1/artworks/search?query[term][is_public_domain]=true', {
+  return axios.get('https://api.artic.edu/api/v1/artworks/search?query[term][is_public_domain]=true', {
     params: {
       size: 100,
       fields: ['id', 'title', 'artist_display', 'artist_title', 'term_titles', 'date_end', 'style_title', 'image_id']
     }
-  })).data;
+  }).then(res => { return res.data }).catch(error => console.log(error));
 }
 
 function App() {
@@ -30,7 +30,6 @@ function App() {
       (item.term_titles.includes('painting') || item.term_titles.includes('drawings (visual works)')) && 
       !item.term_titles.includes('Modernism')
     )));
-    console.log(artworks);
   });
 
   return (
