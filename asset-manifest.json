@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Artsie_React_Exercise/static/css/main.f65031e9.chunk.css",
+    "main.js": "/Artsie_React_Exercise/static/js/main.d884aa39.chunk.js",
+    "main.js.map": "/Artsie_React_Exercise/static/js/main.d884aa39.chunk.js.map",
+    "runtime-main.js": "/Artsie_React_Exercise/static/js/runtime-main.9b688924.js",
+    "runtime-main.js.map": "/Artsie_React_Exercise/static/js/runtime-main.9b688924.js.map",
+    "static/js/2.1c6d55e5.chunk.js": "/Artsie_React_Exercise/static/js/2.1c6d55e5.chunk.js",
+    "static/js/2.1c6d55e5.chunk.js.map": "/Artsie_React_Exercise/static/js/2.1c6d55e5.chunk.js.map",
+    "static/js/3.301a2ada.chunk.js": "/Artsie_React_Exercise/static/js/3.301a2ada.chunk.js",
+    "static/js/3.301a2ada.chunk.js.map": "/Artsie_React_Exercise/static/js/3.301a2ada.chunk.js.map",
+    "index.html": "/Artsie_React_Exercise/index.html",
+    "static/css/main.f65031e9.chunk.css.map": "/Artsie_React_Exercise/static/css/main.f65031e9.chunk.css.map",
+    "static/js/2.1c6d55e5.chunk.js.LICENSE.txt": "/Artsie_React_Exercise/static/js/2.1c6d55e5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b688924.js",
+    "static/js/2.1c6d55e5.chunk.js",
+    "static/css/main.f65031e9.chunk.css",
+    "static/js/main.d884aa39.chunk.js"
+  ]
+}
