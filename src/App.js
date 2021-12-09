@@ -25,7 +25,6 @@ function App() {
   console.log(artworks);
 
   useEffect(() => {
-    //if (!artworks.length) getArtworks().then(res => setArtworks(res.data));
     if (!artworks.length) getArtworks().then(res => setArtworks(res.data.filter(item => 
       (item.term_titles.includes('painting') || item.term_titles.includes('drawings (visual works)')) && 
       !item.term_titles.includes('Modernism')
